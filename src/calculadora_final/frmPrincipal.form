@@ -10,6 +10,8 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
       </Events>
     </Component>
+    <Component class="javax.swing.JColorChooser" name="jColorChooser1">
+    </Component>
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
@@ -38,47 +40,62 @@
               <Group type="103" groupAlignment="1" attributes="0">
                   <Component id="jScrollPane1" max="32767" attributes="0"/>
                   <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                          <Component id="btnMas" pref="73" max="32767" attributes="0"/>
-                          <Component id="btnCuatro" alignment="0" max="32767" attributes="0"/>
-                          <Component id="btnCero" alignment="0" max="32767" attributes="0"/>
-                          <Component id="btnOcho" alignment="0" max="32767" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="btnUno" pref="71" max="32767" attributes="0"/>
-                          <Component id="btnCinco" max="32767" attributes="0"/>
-                          <Component id="btnNueve" max="32767" attributes="0"/>
-                          <Component id="btnMenos" max="32767" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="btnDos" pref="73" max="32767" attributes="0"/>
-                          <Component id="btnSeis" max="32767" attributes="0"/>
-                          <Component id="btnPor" max="32767" attributes="0"/>
-                          <Component id="btnPunto" max="32767" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="btnTres" max="32767" attributes="0"/>
-                          <Component id="btnSiete" max="32767" attributes="0"/>
-                          <Component id="btnEntre" max="32767" attributes="0"/>
-                          <Component id="btnMasmenos" pref="73" max="32767" attributes="0"/>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="btnPorCiento" max="32767" attributes="0"/>
-                          <Component id="btnXi" max="32767" attributes="0"/>
-                          <Component id="btnTAN" pref="73" max="32767" attributes="0"/>
-                          <Component id="btnCos" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="btnMas" pref="73" max="32767" attributes="0"/>
+                                  <Component id="btnCuatro" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="btnCero" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="btnOcho" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnUno" pref="71" max="32767" attributes="0"/>
+                                  <Component id="btnCinco" max="32767" attributes="0"/>
+                                  <Component id="btnNueve" max="32767" attributes="0"/>
+                                  <Component id="btnMenos" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnDos" pref="73" max="32767" attributes="0"/>
+                                  <Component id="btnSeis" max="32767" attributes="0"/>
+                                  <Component id="btnPor" max="32767" attributes="0"/>
+                                  <Component id="btnPunto" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnTres" max="32767" attributes="0"/>
+                                  <Component id="btnSiete" max="32767" attributes="0"/>
+                                  <Component id="btnEntre" max="32767" attributes="0"/>
+                                  <Component id="btnMasmenos" pref="73" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="btnPorCiento" max="32767" attributes="0"/>
+                                  <Component id="btnFactorial" max="32767" attributes="0"/>
+                                  <Component id="btnTAN" pref="73" max="32767" attributes="0"/>
+                                  <Component id="btnCos" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                              <Component id="btnSEN" min="-2" pref="73" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="btnCE" max="32767" attributes="0"/>
                                   <Component id="btnC" max="32767" attributes="0"/>
-                                  <Component id="btnLog" pref="73" max="32767" attributes="0"/>
+                                  <Component id="btnLog" pref="102" max="32767" attributes="0"/>
+                                  <Component id="btnLogNat" alignment="1" max="32767" attributes="0"/>
                               </Group>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" attributes="0">
@@ -101,7 +118,6 @@
                               <Component id="btnIgual" min="-2" pref="73" max="-2" attributes="0"/>
                           </Group>
                       </Group>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -127,9 +143,23 @@
                       <Component id="btnIgual" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="23" max="32767" attributes="0"/>
-              <Component id="btnABinario" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="3" max="-2" attributes="0">
+                      <Component id="jButton3" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                      <Component id="jButton2" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                      <Component id="jButton1" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                      <Component id="btnSEN" alignment="0" min="-2" pref="51" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="btnABinario" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnLogNat" alignment="1" min="-2" pref="51" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
@@ -164,7 +194,7 @@
                   <Component id="btnUno" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
                   <Component id="btnDos" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
                   <Component id="btnTres" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
-                  <Component id="btnXi" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  <Component id="btnFactorial" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                   <Component id="btnCE" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
                   <Component id="btnAutor" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
               </Group>
@@ -181,7 +211,7 @@
 
       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
       <SubComponents>
-        <Component class="javax.swing.JTextArea" name="pantalla">
+        <Component class="javax.swing.JTextArea" name="txtResultados">
           <Properties>
             <Property name="columns" type="int" value="20"/>
             <Property name="rows" type="int" value="5"/>
@@ -409,6 +439,9 @@
         </Property>
         <Property name="text" type="java.lang.String" value="Ra&#xed;z Cuadrada"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRaizCuadradaActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnIgual">
       <Properties>
@@ -420,8 +453,11 @@
         </Property>
         <Property name="text" type="java.lang.String" value="="/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnIgualActionPerformed"/>
+      </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="btnXi">
+    <Component class="javax.swing.JButton" name="btnFactorial">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="99" red="99" type="rgb"/>
@@ -431,6 +467,9 @@
         </Property>
         <Property name="text" type="java.lang.String" value="X!"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFactorialActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnCE">
       <Properties>
@@ -456,6 +495,9 @@
         </Property>
         <Property name="text" type="java.lang.String" value="TAN"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTANActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnC">
       <Properties>
@@ -467,54 +509,181 @@
         </Property>
         <Property name="text" type="java.lang.String" value="C"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnPunto">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="11" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="."/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPuntoActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnMasmenos">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="11" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="&#xb1;"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnMasmenosActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnCos">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="11" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="COS"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCosActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnLog">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="11" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="LOG"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLogActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JRadioButton" name="btnABinario">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="18" style="0"/>
+          <Font name="Yu Gothic Medium" size="11" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="A Binario"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnABinarioActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JRadioButton" name="btnAHexagonal">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="18" style="0"/>
+          <Font name="Yu Gothic Medium" size="11" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="A Hexagonal"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAHexagonalActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JRadioButton" name="btnAOctal">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Tahoma" size="18" style="0"/>
+          <Font name="Yu Gothic Medium" size="11" style="1"/>
         </Property>
         <Property name="text" type="java.lang.String" value="A Octal"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAOctalActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnAutor">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="11" style="1"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Autor"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAutorActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnLogNat">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="LN"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLogNatActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSEN">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="SEN"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSENActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jButton1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jButton2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton3">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="jButton3"/>
       </Properties>
     </Component>
   </SubComponents>
