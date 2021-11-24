@@ -223,6 +223,11 @@ public class frmPrincipal extends javax.swing.JFrame {
         btnCE.setBackground(new java.awt.Color(153, 153, 255));
         btnCE.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
         btnCE.setText("CE");
+        btnCE.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCEActionPerformed(evt);
+            }
+        });
 
         btnTAN.setBackground(new java.awt.Color(153, 153, 255));
         btnTAN.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
@@ -432,6 +437,11 @@ public class frmPrincipal extends javax.swing.JFrame {
     private void btnPorCientoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPorCientoActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btnPorCientoActionPerformed
+
+    private void btnCEActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCEActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_btnCEActionPerformed
 
     /**
      * @param args the command line arguments
