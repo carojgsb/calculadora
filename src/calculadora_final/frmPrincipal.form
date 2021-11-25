@@ -41,81 +41,81 @@
                   <Component id="jScrollPane1" max="32767" attributes="0"/>
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                  <Component id="btnMas" pref="73" max="32767" attributes="0"/>
-                                  <Component id="btnCuatro" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="btnCero" alignment="0" max="32767" attributes="0"/>
-                                  <Component id="btnOcho" alignment="0" max="32767" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="btnUno" pref="71" max="32767" attributes="0"/>
-                                  <Component id="btnCinco" max="32767" attributes="0"/>
-                                  <Component id="btnNueve" max="32767" attributes="0"/>
-                                  <Component id="btnMenos" max="32767" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="btnDos" pref="73" max="32767" attributes="0"/>
-                                  <Component id="btnSeis" max="32767" attributes="0"/>
-                                  <Component id="btnPor" max="32767" attributes="0"/>
-                                  <Component id="btnPunto" max="32767" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="btnTres" max="32767" attributes="0"/>
-                                  <Component id="btnSiete" max="32767" attributes="0"/>
-                                  <Component id="btnEntre" max="32767" attributes="0"/>
-                                  <Component id="btnMasmenos" pref="73" max="32767" attributes="0"/>
-                              </Group>
-                              <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="btnMas" pref="73" max="32767" attributes="0"/>
+                              <Component id="btnCuatro" alignment="0" max="32767" attributes="0"/>
+                              <Component id="btnCero" alignment="0" max="32767" attributes="0"/>
+                              <Component id="btnOcho" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="btnAlCuadrado" alignment="0" min="-2" pref="73" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jButton2" pref="0" max="32767" attributes="0"/>
+                          <Component id="btnUno" pref="71" max="32767" attributes="0"/>
+                          <Component id="btnCinco" max="32767" attributes="0"/>
+                          <Component id="btnNueve" max="32767" attributes="0"/>
+                          <Component id="btnMenos" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="btnInversa" max="32767" attributes="0"/>
+                          <Component id="btnDos" pref="73" max="32767" attributes="0"/>
+                          <Component id="btnSeis" max="32767" attributes="0"/>
+                          <Component id="btnPor" max="32767" attributes="0"/>
+                          <Component id="btnPunto" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="btnTres" max="32767" attributes="0"/>
+                          <Component id="btnSiete" max="32767" attributes="0"/>
+                          <Component id="btnEntre" max="32767" attributes="0"/>
+                          <Component id="btnMasmenos" pref="73" max="32767" attributes="0"/>
+                          <Component id="btnPI" alignment="0" pref="73" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                   <Component id="btnPorCiento" max="32767" attributes="0"/>
                                   <Component id="btnFactorial" max="32767" attributes="0"/>
                                   <Component id="btnTAN" pref="73" max="32767" attributes="0"/>
                                   <Component id="btnCos" max="32767" attributes="0"/>
                               </Group>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                              <Component id="jButton3" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jButton2" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
-                              <Component id="btnSEN" min="-2" pref="73" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="btnCE" max="32767" attributes="0"/>
-                                  <Component id="btnC" max="32767" attributes="0"/>
-                                  <Component id="btnLog" pref="102" max="32767" attributes="0"/>
-                                  <Component id="btnLogNat" alignment="1" max="32767" attributes="0"/>
-                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" attributes="0">
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="btnAOctal" min="-2" max="-2" attributes="0"/>
-                                          <Component id="btnAHexagonal" min="-2" max="-2" attributes="0"/>
-                                          <Component id="btnABinario" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      </Group>
+                                      <Component id="btnRaizCuadrada" pref="118" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                      <Component id="btnIgual" min="-2" pref="73" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="btnAutor" min="-2" pref="110" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
                                   </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-                                      <Component id="btnAutor" min="-2" pref="73" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="btnC" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="btnCE" max="32767" attributes="0"/>
+                                          <Component id="btnLog" alignment="0" min="-2" pref="119" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="btnABinario" alignment="0" min="-2" pref="93" max="-2" attributes="0"/>
+                                          <Component id="btnAHexagonal" min="-2" max="-2" attributes="0"/>
+                                          <Component id="btnAOctal" min="-2" pref="93" max="-2" attributes="0"/>
+                                      </Group>
                                   </Group>
                               </Group>
                           </Group>
                           <Group type="102" attributes="0">
-                              <Component id="btnRaizCuadrada" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="btnIgual" min="-2" pref="73" max="-2" attributes="0"/>
+                              <Component id="btnSEN" min="-2" pref="73" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnLogNat" min="-2" pref="118" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnParentesis2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnParentesis" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -127,68 +127,64 @@
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="btnMas" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
-                      <Component id="btnMenos" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
-                      <Component id="btnPor" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
-                      <Component id="btnEntre" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
-                      <Component id="btnPorCiento" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnMas" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="btnMenos" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="btnPor" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="btnEntre" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="btnPorCiento" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="btnRaizCuadrada" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="btnIgual" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnAlCuadrado" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="jButton2" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="btnInversa" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="btnPI" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="btnSEN" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="btnLogNat" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="btnParentesis2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnParentesis" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
-                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
-                      <Component id="btnRaizCuadrada" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
-                      <Component id="btnIgual" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="btnAutor" max="32767" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="103" alignment="0" groupAlignment="3" max="-2" attributes="0">
-                      <Component id="jButton3" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
-                      <Component id="jButton2" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
-                      <Component id="jButton1" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
-                      <Component id="btnSEN" alignment="0" min="-2" pref="51" max="-2" attributes="0"/>
-                  </Group>
+              <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="btnABinario" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnLogNat" alignment="1" min="-2" pref="51" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="btnOcho" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="btnNueve" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="btnPunto" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="btnMasmenos" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                          <Component id="btnCos" alignment="3" min="-2" pref="47" max="-2" attributes="0"/>
+                          <Component id="btnLog" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                       </Group>
-                  </Group>
-              </Group>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                          <Component id="btnCos" alignment="0" max="32767" attributes="0"/>
-                          <Component id="btnPunto" alignment="0" max="32767" attributes="0"/>
-                          <Component id="btnNueve" alignment="0" pref="50" max="32767" attributes="0"/>
-                          <Component id="btnOcho" alignment="0" max="32767" attributes="0"/>
-                          <Component id="btnLog" max="32767" attributes="0"/>
-                          <Component id="btnMasmenos" alignment="0" max="32767" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="btnC" max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="btnCuatro" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
                               <Component id="btnCinco" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
                               <Component id="btnSeis" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
                               <Component id="btnSiete" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                              <Component id="btnTAN" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="btnTAN" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btnC" alignment="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <Component id="btnAHexagonal" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="btnABinario" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="btnAOctal" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnAHexagonal" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="btnCero" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
                   <Component id="btnUno" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
@@ -196,9 +192,12 @@
                   <Component id="btnTres" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
                   <Component id="btnFactorial" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
                   <Component id="btnCE" alignment="3" min="-2" pref="49" max="-2" attributes="0"/>
-                  <Component id="btnAutor" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                      <Component id="btnAOctal" min="-2" max="-2" attributes="0"/>
+                  </Group>
               </Group>
-              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <EmptySpace pref="122" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -653,7 +652,7 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSENActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton1">
+    <Component class="javax.swing.JButton" name="btnInversa">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="99" red="99" type="rgb"/>
@@ -661,8 +660,11 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Yu Gothic Medium" size="11" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="jButton1"/>
+        <Property name="text" type="java.lang.String" value="1/X"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnInversaActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jButton2">
       <Properties>
@@ -674,8 +676,11 @@
         </Property>
         <Property name="text" type="java.lang.String" value="jButton2"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="jButton3">
+    <Component class="javax.swing.JButton" name="btnAlCuadrado">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="ff" green="99" red="99" type="rgb"/>
@@ -683,8 +688,41 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Yu Gothic Medium" size="11" style="1"/>
         </Property>
-        <Property name="text" type="java.lang.String" value="jButton3"/>
+        <Property name="text" type="java.lang.String" value="X^2"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAlCuadradoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnPI">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="99" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Yu Gothic Medium" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x3c0;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPIActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnParentesis">
+      <Properties>
+        <Property name="text" type="java.lang.String" value=")"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnParentesisActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnParentesis2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="("/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnParentesis2ActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>
