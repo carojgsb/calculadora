@@ -1,4 +1,4 @@
-/*
+                                                                                           /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -21,7 +21,7 @@ public class frmPrincipal extends javax.swing.JFrame {
      */
     public frmPrincipal() {
         initComponents();
-        this.getContentPane().setBackground(Color.black);
+        this.getContentPane().setBackground(Color.gray);
     }
 //metodo factorial
     public int factorial(int numero){
@@ -92,12 +92,14 @@ public class frmPrincipal extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         txtResultados.setColumns(20);
+        txtResultados.setFont(new java.awt.Font("Yu Gothic UI Semibold", 1, 36)); // NOI18N
         txtResultados.setRows(5);
         jScrollPane1.setViewportView(txtResultados);
 
         btnCero.setBackground(new java.awt.Color(153, 153, 255));
-        btnCero.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnCero.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnCero.setText("0");
+        btnCero.setAlignmentY(0.0F);
         btnCero.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCeroActionPerformed(evt);
@@ -105,8 +107,9 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
 
         btnUno.setBackground(new java.awt.Color(153, 153, 255));
-        btnUno.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnUno.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnUno.setText("1");
+        btnUno.setAlignmentY(0.0F);
         btnUno.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnUnoActionPerformed(evt);
@@ -114,8 +117,9 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
 
         btnDos.setBackground(new java.awt.Color(153, 153, 255));
-        btnDos.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnDos.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnDos.setText("2");
+        btnDos.setAlignmentY(0.0F);
         btnDos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnDosActionPerformed(evt);
@@ -123,8 +127,9 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
 
         btnTres.setBackground(new java.awt.Color(153, 153, 255));
-        btnTres.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnTres.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnTres.setText("3");
+        btnTres.setAlignmentY(0.0F);
         btnTres.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnTresActionPerformed(evt);
@@ -132,8 +137,9 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
 
         btnCuatro.setBackground(new java.awt.Color(153, 153, 255));
-        btnCuatro.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnCuatro.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnCuatro.setText("4");
+        btnCuatro.setAlignmentY(0.0F);
         btnCuatro.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCuatroActionPerformed(evt);
@@ -141,8 +147,9 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
 
         btnCinco.setBackground(new java.awt.Color(153, 153, 255));
-        btnCinco.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnCinco.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnCinco.setText("5");
+        btnCinco.setAlignmentY(0.0F);
         btnCinco.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCincoActionPerformed(evt);
@@ -150,8 +157,9 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
 
         btnSeis.setBackground(new java.awt.Color(153, 153, 255));
-        btnSeis.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnSeis.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnSeis.setText("6");
+        btnSeis.setAlignmentY(0.0F);
         btnSeis.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSeisActionPerformed(evt);
@@ -159,8 +167,9 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
 
         btnSiete.setBackground(new java.awt.Color(153, 153, 255));
-        btnSiete.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnSiete.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnSiete.setText("7");
+        btnSiete.setAlignmentY(0.0F);
         btnSiete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSieteActionPerformed(evt);
@@ -168,8 +177,9 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
 
         btnOcho.setBackground(new java.awt.Color(153, 153, 255));
-        btnOcho.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnOcho.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnOcho.setText("8");
+        btnOcho.setAlignmentY(0.0F);
         btnOcho.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnOchoActionPerformed(evt);
@@ -177,107 +187,120 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
 
         btnNueve.setBackground(new java.awt.Color(153, 153, 255));
-        btnNueve.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnNueve.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnNueve.setText("9");
+        btnNueve.setAlignmentY(0.0F);
         btnNueve.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnNueveActionPerformed(evt);
             }
         });
 
-        btnMenos.setBackground(new java.awt.Color(153, 153, 255));
-        btnMenos.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnMenos.setBackground(new java.awt.Color(204, 153, 255));
+        btnMenos.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnMenos.setText("-");
+        btnMenos.setAlignmentY(0.0F);
         btnMenos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMenosActionPerformed(evt);
             }
         });
 
-        btnMas.setBackground(new java.awt.Color(153, 153, 255));
-        btnMas.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnMas.setBackground(new java.awt.Color(204, 153, 255));
+        btnMas.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnMas.setText("+");
+        btnMas.setAlignmentY(0.0F);
         btnMas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMasActionPerformed(evt);
             }
         });
 
-        btnPor.setBackground(new java.awt.Color(153, 153, 255));
-        btnPor.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnPor.setBackground(new java.awt.Color(204, 153, 255));
+        btnPor.setFont(new java.awt.Font("Yu Gothic Medium", 1, 36)); // NOI18N
         btnPor.setText("*");
+        btnPor.setAlignmentX(0.5F);
+        btnPor.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btnPor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPorActionPerformed(evt);
             }
         });
 
-        btnEntre.setBackground(new java.awt.Color(153, 153, 255));
-        btnEntre.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnEntre.setBackground(new java.awt.Color(204, 153, 255));
+        btnEntre.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnEntre.setText("/");
+        btnEntre.setAlignmentY(0.0F);
         btnEntre.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnEntreActionPerformed(evt);
             }
         });
 
-        btnPorCiento.setBackground(new java.awt.Color(153, 153, 255));
-        btnPorCiento.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnPorCiento.setBackground(new java.awt.Color(204, 153, 255));
+        btnPorCiento.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnPorCiento.setText("%");
+        btnPorCiento.setAlignmentY(0.0F);
         btnPorCiento.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPorCientoActionPerformed(evt);
             }
         });
 
-        btnRaizCuadrada.setBackground(new java.awt.Color(153, 153, 255));
-        btnRaizCuadrada.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnRaizCuadrada.setBackground(new java.awt.Color(255, 204, 255));
+        btnRaizCuadrada.setFont(new java.awt.Font("Yu Gothic Medium", 1, 12)); // NOI18N
         btnRaizCuadrada.setText("Raíz Cuadrada");
+        btnRaizCuadrada.setAlignmentY(0.0F);
         btnRaizCuadrada.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnRaizCuadradaActionPerformed(evt);
             }
         });
 
-        btnIgual.setBackground(new java.awt.Color(153, 153, 255));
-        btnIgual.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnIgual.setBackground(new java.awt.Color(255, 204, 255));
+        btnIgual.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnIgual.setText("=");
+        btnIgual.setAlignmentY(0.0F);
         btnIgual.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnIgualActionPerformed(evt);
             }
         });
 
-        btnFactorial.setBackground(new java.awt.Color(153, 153, 255));
-        btnFactorial.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnFactorial.setBackground(new java.awt.Color(255, 204, 204));
+        btnFactorial.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnFactorial.setText("X!");
+        btnFactorial.setAlignmentY(0.0F);
         btnFactorial.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnFactorialActionPerformed(evt);
             }
         });
 
-        btnCE.setBackground(new java.awt.Color(255, 255, 255));
-        btnCE.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnCE.setBackground(new java.awt.Color(204, 204, 255));
+        btnCE.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnCE.setText("CE");
+        btnCE.setAlignmentY(0.0F);
         btnCE.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCEActionPerformed(evt);
             }
         });
 
-        btnTAN.setBackground(new java.awt.Color(153, 153, 255));
-        btnTAN.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnTAN.setBackground(new java.awt.Color(255, 204, 255));
+        btnTAN.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnTAN.setText("TAN");
+        btnTAN.setAlignmentY(0.0F);
         btnTAN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnTANActionPerformed(evt);
             }
         });
 
-        btnC.setBackground(new java.awt.Color(255, 255, 255));
-        btnC.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnC.setBackground(new java.awt.Color(204, 204, 255));
+        btnC.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnC.setText("C");
+        btnC.setAlignmentY(0.0F);
         btnC.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCActionPerformed(evt);
@@ -285,8 +308,9 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
 
         btnPunto.setBackground(new java.awt.Color(153, 153, 255));
-        btnPunto.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnPunto.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnPunto.setText(".");
+        btnPunto.setAlignmentY(0.0F);
         btnPunto.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPuntoActionPerformed(evt);
@@ -294,80 +318,89 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
 
         btnMasmenos.setBackground(new java.awt.Color(153, 153, 255));
-        btnMasmenos.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnMasmenos.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnMasmenos.setText("±");
+        btnMasmenos.setAlignmentY(0.0F);
         btnMasmenos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnMasmenosActionPerformed(evt);
             }
         });
 
-        btnCos.setBackground(new java.awt.Color(153, 153, 255));
-        btnCos.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnCos.setBackground(new java.awt.Color(255, 204, 255));
+        btnCos.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnCos.setText("COS");
+        btnCos.setAlignmentY(0.0F);
         btnCos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCosActionPerformed(evt);
             }
         });
 
-        btnLog.setBackground(new java.awt.Color(153, 153, 255));
-        btnLog.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnLog.setBackground(new java.awt.Color(255, 204, 255));
+        btnLog.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnLog.setText("LOG");
+        btnLog.setAlignmentY(0.0F);
         btnLog.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLogActionPerformed(evt);
             }
         });
 
-        btnAutor.setBackground(new java.awt.Color(153, 153, 255));
-        btnAutor.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnAutor.setBackground(new java.awt.Color(204, 204, 255));
+        btnAutor.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnAutor.setText("Autor");
+        btnAutor.setAlignmentY(0.0F);
         btnAutor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAutorActionPerformed(evt);
             }
         });
 
-        btnLogNat.setBackground(new java.awt.Color(153, 153, 255));
-        btnLogNat.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnLogNat.setBackground(new java.awt.Color(255, 204, 255));
+        btnLogNat.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnLogNat.setText("LN");
+        btnLogNat.setAlignmentY(0.0F);
         btnLogNat.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnLogNatActionPerformed(evt);
             }
         });
 
-        btnSEN.setBackground(new java.awt.Color(153, 153, 255));
-        btnSEN.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnSEN.setBackground(new java.awt.Color(255, 204, 255));
+        btnSEN.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnSEN.setText("SEN");
+        btnSEN.setAlignmentY(0.0F);
         btnSEN.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSENActionPerformed(evt);
             }
         });
 
-        btnInversa.setBackground(new java.awt.Color(153, 153, 255));
-        btnInversa.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnInversa.setBackground(new java.awt.Color(255, 204, 204));
+        btnInversa.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnInversa.setText("1/X");
+        btnInversa.setAlignmentY(0.0F);
         btnInversa.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnInversaActionPerformed(evt);
             }
         });
 
-        btnXY.setBackground(new java.awt.Color(153, 153, 255));
-        btnXY.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnXY.setBackground(new java.awt.Color(255, 204, 204));
+        btnXY.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnXY.setText("X^Y");
+        btnXY.setAlignmentY(0.0F);
         btnXY.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnXYActionPerformed(evt);
             }
         });
 
-        btnAlCuadrado.setBackground(new java.awt.Color(153, 153, 255));
-        btnAlCuadrado.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnAlCuadrado.setBackground(new java.awt.Color(255, 204, 204));
+        btnAlCuadrado.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnAlCuadrado.setText("X^2");
+        btnAlCuadrado.setAlignmentY(0.0F);
         btnAlCuadrado.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAlCuadradoActionPerformed(evt);
@@ -375,22 +408,29 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
 
         btnPI.setBackground(new java.awt.Color(153, 153, 255));
-        btnPI.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnPI.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnPI.setText("π");
+        btnPI.setAlignmentY(0.0F);
         btnPI.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnPIActionPerformed(evt);
             }
         });
 
+        btnParentesis.setBackground(new java.awt.Color(255, 204, 255));
+        btnParentesis.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnParentesis.setText(")");
+        btnParentesis.setAlignmentY(0.0F);
         btnParentesis.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnParentesisActionPerformed(evt);
             }
         });
 
+        btnParentesis2.setBackground(new java.awt.Color(255, 204, 255));
+        btnParentesis2.setFont(new java.awt.Font("Yu Gothic Medium", 1, 18)); // NOI18N
         btnParentesis2.setText("(");
+        btnParentesis2.setAlignmentY(0.0F);
         btnParentesis2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnParentesis2ActionPerformed(evt);
@@ -398,8 +438,10 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
 
         btnAHexagonal.setBackground(new java.awt.Color(153, 153, 255));
-        btnAHexagonal.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
-        btnAHexagonal.setText("a Hexagonal");
+        btnAHexagonal.setFont(new java.awt.Font("Yu Gothic Medium", 1, 10)); // NOI18N
+        btnAHexagonal.setForeground(new java.awt.Color(255, 255, 255));
+        btnAHexagonal.setText("A Hexadecimal");
+        btnAHexagonal.setAlignmentY(0.0F);
         btnAHexagonal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAHexagonalActionPerformed(evt);
@@ -407,8 +449,10 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
 
         btnAOctal.setBackground(new java.awt.Color(153, 153, 255));
-        btnAOctal.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnAOctal.setFont(new java.awt.Font("Yu Gothic Medium", 1, 10)); // NOI18N
+        btnAOctal.setForeground(new java.awt.Color(255, 255, 255));
         btnAOctal.setText("A Octal");
+        btnAOctal.setAlignmentY(0.0F);
         btnAOctal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAOctalActionPerformed(evt);
@@ -416,8 +460,10 @@ public class frmPrincipal extends javax.swing.JFrame {
         });
 
         btnBinario2.setBackground(new java.awt.Color(153, 153, 255));
-        btnBinario2.setFont(new java.awt.Font("Yu Gothic Medium", 1, 11)); // NOI18N
+        btnBinario2.setFont(new java.awt.Font("Yu Gothic Medium", 1, 10)); // NOI18N
+        btnBinario2.setForeground(new java.awt.Color(255, 255, 255));
         btnBinario2.setText("A binario");
+        btnBinario2.setAlignmentY(0.0F);
         btnBinario2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBinario2ActionPerformed(evt);
@@ -428,86 +474,104 @@ public class frmPrincipal extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+            .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jScrollPane1)
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(btnMas, javax.swing.GroupLayout.DEFAULT_SIZE, 73, Short.MAX_VALUE)
-                                .addComponent(btnCuatro, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(btnCero, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(btnOcho, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addComponent(btnAlCuadrado, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 730, Short.MAX_VALUE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(btnCuatro, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 73, Short.MAX_VALUE)
+                            .addComponent(btnCero, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(btnXY, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE)
                             .addComponent(btnUno, javax.swing.GroupLayout.DEFAULT_SIZE, 71, Short.MAX_VALUE)
-                            .addComponent(btnCinco, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnNueve, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnMenos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(btnCinco, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(btnInversa, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(btnDos, javax.swing.GroupLayout.DEFAULT_SIZE, 73, Short.MAX_VALUE)
-                            .addComponent(btnSeis, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnPor, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnPunto, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(btnSeis, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(btnTres, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnSiete, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnEntre, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btnMasmenos, javax.swing.GroupLayout.DEFAULT_SIZE, 73, Short.MAX_VALUE)
-                            .addComponent(btnPI, javax.swing.GroupLayout.DEFAULT_SIZE, 73, Short.MAX_VALUE))
+                            .addComponent(btnTres, javax.swing.GroupLayout.DEFAULT_SIZE, 73, Short.MAX_VALUE)
+                            .addComponent(btnSiete, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(btnPorCiento, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(btnFactorial, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(btnTAN, javax.swing.GroupLayout.DEFAULT_SIZE, 73, Short.MAX_VALUE)
-                                    .addComponent(btnCos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addComponent(btnTAN, javax.swing.GroupLayout.DEFAULT_SIZE, 73, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addComponent(btnRaizCuadrada, javax.swing.GroupLayout.DEFAULT_SIZE, 118, Short.MAX_VALUE)
-                                        .addGap(14, 14, 14)
-                                        .addComponent(btnIgual, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(btnAutor, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(12, 12, 12))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(layout.createSequentialGroup()
-                                                .addComponent(btnLog, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(0, 109, Short.MAX_VALUE))
-                                            .addComponent(btnCE, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addComponent(btnC, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                        .addGap(18, 18, 18)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(btnAOctal, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(btnAHexagonal, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(btnBinario2, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(btnCE, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(btnC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addGap(18, 18, 18)
+                                .addComponent(btnAHexagonal, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(btnSEN, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(btnLogNat, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(79, 79, 79)
+                                .addComponent(btnRaizCuadrada, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(btnParentesis2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(btnParentesis)
-                                .addGap(0, 0, Short.MAX_VALUE)))))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(btnAutor, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(10, 10, 10)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(btnBinario2, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(btnAOctal, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(btnMas, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnMenos, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnPor, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnEntre, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnPorCiento, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(btnAlCuadrado, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(btnOcho, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(btnNueve, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(btnXY, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(layout.createSequentialGroup()
+                                                .addComponent(btnPunto, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(btnMasmenos, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(btnCos, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                                .addComponent(btnLog, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addGroup(layout.createSequentialGroup()
+                                                .addComponent(btnInversa, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(btnPI, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(btnSEN, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(btnLogNat, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(btnIgual, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(6, 6, 6)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 125, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(btnMas, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -516,53 +580,54 @@ public class frmPrincipal extends javax.swing.JFrame {
                             .addComponent(btnEntre, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnPorCiento, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnRaizCuadrada, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnIgual, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(15, 15, 15)
+                            .addComponent(btnParentesis2)
+                            .addComponent(btnParentesis))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                             .addComponent(btnAlCuadrado, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnXY, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnInversa, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnPI, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnSEN, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnLogNat, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnParentesis2)
-                            .addComponent(btnParentesis)))
-                    .addComponent(btnAutor, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnOcho, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnNueve, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnPunto, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnMasmenos, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnCos, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btnLog, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(11, 11, 11)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                .addComponent(btnCuatro, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(btnCinco, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(btnSeis, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(btnSiete, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(btnTAN, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(btnC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(btnLogNat, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(btnCero, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnUno, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnDos, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnTres, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnFactorial, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnCE, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addContainerGap(22, Short.MAX_VALUE))
+                            .addComponent(btnPunto, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnMasmenos, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnOcho, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnNueve, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnCos, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnLog, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addComponent(btnIgual, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(btnAutor, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(18, 18, 18)
+                            .addComponent(btnBinario2))))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(btnBinario2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btnAHexagonal)
-                        .addGap(18, 18, 18)
-                        .addComponent(btnAOctal)
-                        .addGap(22, 22, 22))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(btnCuatro, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnCinco, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnSeis, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnSiete, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnTAN, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnC, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(6, 6, 6)
+                        .addComponent(btnAHexagonal)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(btnCero, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnUno, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnDos, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnTres, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnFactorial, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(btnCE, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(btnAOctal))
+                .addContainerGap(12, Short.MAX_VALUE))
         );
 
         pack();
@@ -685,7 +750,7 @@ public class frmPrincipal extends javax.swing.JFrame {
 
     private void btnIgualActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIgualActionPerformed
          double valor2 = Double.parseDouble(txtResultados.getText());
-        switch(operacion)
+        switch (operacion)
                 {
             case "suma":
                 txtResultados.setText(String.valueOf(valor1+valor2));
