@@ -637,7 +637,10 @@ public class frmPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_btnEntreActionPerformed
 
     private void btnPorCientoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPorCientoActionPerformed
-        // TODO add your handling code here:
+        valor1 = Double.parseDouble(txtResultados.getText());
+        valor1 = valor1/100;
+        txtResultados.setText("");
+        operacion = "porcentaje";
     }//GEN-LAST:event_btnPorCientoActionPerformed
 
     private void btnCEActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCEActionPerformed
@@ -681,7 +684,7 @@ public class frmPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_btnRaizCuadradaActionPerformed
 
     private void btnIgualActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnIgualActionPerformed
-        double valor2 = Double.parseDouble(txtResultados.getText());
+         double valor2 = Double.parseDouble(txtResultados.getText());
         switch(operacion)
                 {
             case "suma":
@@ -763,7 +766,7 @@ public class frmPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_btnAOctalActionPerformed
 
     private void btnBinario2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBinario2ActionPerformed
-        // TODO add your handling code here:
+        
     }//GEN-LAST:event_btnBinario2ActionPerformed
 
     /**
