@@ -78,9 +78,9 @@ public class frmPrincipal extends javax.swing.JFrame {
         btnPI = new javax.swing.JButton();
         btnParentesis = new javax.swing.JButton();
         btnParentesis2 = new javax.swing.JButton();
-        btnAHexagonal = new javax.swing.JRadioButton();
-        btnAOctal = new javax.swing.JRadioButton();
-        btnBinario2 = new javax.swing.JRadioButton();
+        jrbHexadecimal = new javax.swing.JRadioButton();
+        jrbOctal = new javax.swing.JRadioButton();
+        jrbBinario = new javax.swing.JRadioButton();
 
         jButton7.setText("jButton1");
         jButton7.addActionListener(new java.awt.event.ActionListener() {
@@ -437,36 +437,36 @@ public class frmPrincipal extends javax.swing.JFrame {
             }
         });
 
-        btnAHexagonal.setBackground(new java.awt.Color(153, 153, 255));
-        btnAHexagonal.setFont(new java.awt.Font("Yu Gothic Medium", 1, 10)); // NOI18N
-        btnAHexagonal.setForeground(new java.awt.Color(255, 255, 255));
-        btnAHexagonal.setText("A Hexadecimal");
-        btnAHexagonal.setAlignmentY(0.0F);
-        btnAHexagonal.addActionListener(new java.awt.event.ActionListener() {
+        jrbHexadecimal.setBackground(new java.awt.Color(153, 153, 255));
+        jrbHexadecimal.setFont(new java.awt.Font("Yu Gothic Medium", 1, 10)); // NOI18N
+        jrbHexadecimal.setForeground(new java.awt.Color(255, 255, 255));
+        jrbHexadecimal.setText("A Hexadecimal");
+        jrbHexadecimal.setAlignmentY(0.0F);
+        jrbHexadecimal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnAHexagonalActionPerformed(evt);
+                jrbHexadecimalActionPerformed(evt);
             }
         });
 
-        btnAOctal.setBackground(new java.awt.Color(153, 153, 255));
-        btnAOctal.setFont(new java.awt.Font("Yu Gothic Medium", 1, 10)); // NOI18N
-        btnAOctal.setForeground(new java.awt.Color(255, 255, 255));
-        btnAOctal.setText("A Octal");
-        btnAOctal.setAlignmentY(0.0F);
-        btnAOctal.addActionListener(new java.awt.event.ActionListener() {
+        jrbOctal.setBackground(new java.awt.Color(153, 153, 255));
+        jrbOctal.setFont(new java.awt.Font("Yu Gothic Medium", 1, 10)); // NOI18N
+        jrbOctal.setForeground(new java.awt.Color(255, 255, 255));
+        jrbOctal.setText("A Octal");
+        jrbOctal.setAlignmentY(0.0F);
+        jrbOctal.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnAOctalActionPerformed(evt);
+                jrbOctalActionPerformed(evt);
             }
         });
 
-        btnBinario2.setBackground(new java.awt.Color(153, 153, 255));
-        btnBinario2.setFont(new java.awt.Font("Yu Gothic Medium", 1, 10)); // NOI18N
-        btnBinario2.setForeground(new java.awt.Color(255, 255, 255));
-        btnBinario2.setText("A binario");
-        btnBinario2.setAlignmentY(0.0F);
-        btnBinario2.addActionListener(new java.awt.event.ActionListener() {
+        jrbBinario.setBackground(new java.awt.Color(153, 153, 255));
+        jrbBinario.setFont(new java.awt.Font("Yu Gothic Medium", 1, 10)); // NOI18N
+        jrbBinario.setForeground(new java.awt.Color(255, 255, 255));
+        jrbBinario.setText("A binario");
+        jrbBinario.setAlignmentY(0.0F);
+        jrbBinario.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBinario2ActionPerformed(evt);
+                jrbBinarioActionPerformed(evt);
             }
         });
 
@@ -505,7 +505,7 @@ public class frmPrincipal extends javax.swing.JFrame {
                                     .addComponent(btnCE, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(btnC, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addGap(18, 18, 18)
-                                .addComponent(btnAHexagonal, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(jrbHexadecimal, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(79, 79, 79)
                                 .addComponent(btnRaizCuadrada, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -519,8 +519,8 @@ public class frmPrincipal extends javax.swing.JFrame {
                                     .addGroup(layout.createSequentialGroup()
                                         .addGap(10, 10, 10)
                                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                            .addComponent(btnBinario2, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(btnAOctal, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
+                                            .addComponent(jrbBinario, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jrbOctal, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)))))))
                     .addGroup(layout.createSequentialGroup()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
@@ -603,7 +603,7 @@ public class frmPrincipal extends javax.swing.JFrame {
                         .addGroup(layout.createSequentialGroup()
                             .addComponent(btnAutor, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGap(18, 18, 18)
-                            .addComponent(btnBinario2))))
+                            .addComponent(jrbBinario))))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -616,7 +616,7 @@ public class frmPrincipal extends javax.swing.JFrame {
                             .addComponent(btnC, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(6, 6, 6)
-                        .addComponent(btnAHexagonal)))
+                        .addComponent(jrbHexadecimal)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -626,7 +626,7 @@ public class frmPrincipal extends javax.swing.JFrame {
                         .addComponent(btnTres, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(btnFactorial, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(btnCE, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(btnAOctal))
+                    .addComponent(jrbOctal))
                 .addContainerGap(12, Short.MAX_VALUE))
         );
 
@@ -822,17 +822,31 @@ public class frmPrincipal extends javax.swing.JFrame {
         txtResultados.setText(String.valueOf(1/Double.parseDouble(txtResultados.getText())));
     }//GEN-LAST:event_btnInversaActionPerformed
 
-    private void btnAHexagonalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAHexagonalActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnAHexagonalActionPerformed
+    private void jrbHexadecimalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jrbHexadecimalActionPerformed
+        jrbOctal.setSelected(false);
+        jrbBinario.setSelected(false);
+        txtResultados.setText(Integer.toHexString(Integer.parseInt(txtResultados.getText())));
+    }//GEN-LAST:event_jrbHexadecimalActionPerformed
 
-    private void btnAOctalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAOctalActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnAOctalActionPerformed
-
-    private void btnBinario2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBinario2ActionPerformed
+    private void jrbOctalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jrbOctalActionPerformed
+        jrbHexadecimal.setSelected(false);
+        jrbBinario.setSelected(false);
+        txtResultados.setText(Integer.toOctalString(Integer.parseInt(txtResultados.getText())));
         
-    }//GEN-LAST:event_btnBinario2ActionPerformed
+    }//GEN-LAST:event_jrbOctalActionPerformed
+
+    private void jrbBinarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jrbBinarioActionPerformed
+        jrbHexadecimal.setSelected(false);
+        jrbOctal.setSelected(false);
+        txtResultados.setText(Integer.toBinaryString(Integer.parseInt(txtResultados.getText())));
+        btnDos.setEnabled(false);
+        btnTres.setEnabled(false);
+        btnCuatro.setEnabled(false);
+        btnCinco.setEnabled(false);
+        btnSeis.setEnabled(false);
+        btnSiete.setEnabled(false);
+        btnNueve.setEnabled(false);    
+    }//GEN-LAST:event_jrbBinarioActionPerformed
 
     /**
      * @param args the command line arguments
@@ -870,11 +884,8 @@ public class frmPrincipal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JRadioButton btnAHexagonal;
-    private javax.swing.JRadioButton btnAOctal;
     private javax.swing.JButton btnAlCuadrado;
     private javax.swing.JButton btnAutor;
-    private javax.swing.JRadioButton btnBinario2;
     private javax.swing.JButton btnC;
     private javax.swing.JButton btnCE;
     private javax.swing.JButton btnCero;
@@ -910,6 +921,9 @@ public class frmPrincipal extends javax.swing.JFrame {
     private javax.swing.JButton jButton7;
     private javax.swing.JColorChooser jColorChooser1;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JRadioButton jrbBinario;
+    private javax.swing.JRadioButton jrbHexadecimal;
+    private javax.swing.JRadioButton jrbOctal;
     private javax.swing.JTextArea txtResultados;
     // End of variables declaration//GEN-END:variables
 }
